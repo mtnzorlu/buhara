@@ -2,24 +2,26 @@ body {background: #bbb; margin: 0 auto; padding: 0; list-style: none; font: 14px
 pre {color: #fff; background-color: slategrey; padding: 11px; border: 1px solid #555; font: 14px roboto, sans-serif;}
 .date {color: rgb(34, 61, 87); font: 12px roboto, sans-serif; background-color: aliceblue; padding: 5px;}
 .post-title {color: rgb(70, 83, 95); font: 22px roboto, sans-serif; border-bottom: 1px solid rgb(181, 209, 247); padding: 5px 0;}
-header {background-color: slategrey; color: #ffffff; height: 54px; font: 15px roboto, sans-serif;}
+header {background-color: slategrey; color: #ffffff; height: 54px; font: 15px roboto, sans-serif; border-bottom: 1px solid #25536d;}
 footer {background-color: slategrey; color: #ffffff; height: 24px; font: 13px roboto, sans-serif; 
     padding: 15px 25px; border-radius: 0 0 8px 8px; line-height: 20px; box-shadow: #585858 0 2px 2px;}
 .title {color: #ffffff; font: 18px roboto, sans-serif; padding: 15px 27px; line-height: 20px; background: #ababab4d;} 
 .title a {color: #ffffff;} .title a:hover {color: #d6ebfc;}
-nav {float: right; display: grid; grid-template: 1fr 1fr / 1fr 14fr;}
+nav {display: grid; grid-template: 1fr 1fr / 1fr 14fr;}
 .menu {padding-right: 20px;} ul {float: right;}
 li {text-decoration: none; list-style-type: none; float: left;}
-nav a {color: #b4e2fc; font: 18px roboto, sans-serif; text-decoration: none; padding-right: 7px;} 
+nav a {color: #b4e2fc; font: 18px roboto, sans-serif; text-decoration: none; padding-right: 5px;} 
 nav a:hover {border-bottom: 2px solid #94cff1; color: #ffffff;}
-.container {background-color: white; padding: 24px; border: 1px solid #efefee; color: #444; font: 16px roboto, sans-serif;} 
-.box {align-items: center; background-color: white; padding: 55px 40px; margin: 10px 0; 
+.container {background-color: white; padding: 0 35px; border: 1px solid #efefee; color: #444; font: 16px roboto, sans-serif;} 
+.box {align-items: center; background-color: white; padding: 15px 40px 65px 40px; margin: 10px 0; 
     box-shadow: #b8b8b8 0 3px 7px; border: 1px solid #e2e2e2; color: #444; font: 16px roboto, sans-serif;} 
 .content.list {text-decoration: none; list-style-type: none; float: left;} 
-.box li {padding-right: 11px;} .box li a {background-color: bisque; padding: 5px 11px; border-radius: 4px; box-shadow: #7a7a7a 0 2px 3px;}
+.box li {padding-right: 11px;} .box li a {background-color: bisque; padding: 5px 11px; border-radius: 4px; box-shadow: #7a7a7a 0 2px 3px;} 
+.box li a:hover {background-color: #0a8dda; color: #d9f1ff;}
 a, h1, h2, h3, h4, h5, h6 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;} 
-a {color: #0073d1; font-size: 15px; text-decoration: none;} a:hover {color: blue;}
+a {color: #0073d1; font-size: 15px; text-decoration: none;} a:hover {color: blue;} 
+img {width: 100%; height: 350px;}
 
 @media screen and (max-device-width: 550px) {     
     body { 

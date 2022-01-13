@@ -1,24 +1,10 @@
 {% include header.html %}
 
-
 <div class="container">
 
   <div class="box">
-    {{ content }}
+        {{ content }}
 </div>
-
-
-
-<div class="box">
-
-    <span><h2>Gönderiler</h2></span>
-    {% for post in site.posts %}
-  <div class="content-list">
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-</div>
-    {% endfor %}
-</div>
-
 
   </div>
 {% include footer.html %}

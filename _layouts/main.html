@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+    <span><h2>Gönderiler</h2></span>
+    {% for post in site.posts %}
+  <div class="content-list">
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+</div>
+    {% endfor %}

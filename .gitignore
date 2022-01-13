@@ -3,4 +3,6 @@
 .jekyll-cache
 .sass-cache
 _site
+_sass
+.git
 Gemfile.lock

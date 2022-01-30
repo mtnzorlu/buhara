@@ -1,8 +1,7 @@
 ---
 layout: page
-title: about
+title: About
 permalink: /about/
 ---
 
-
-<h1>Hakkımda</h1>
+<h1>{{ page.title }}</h1>

@@ -11,18 +11,16 @@
 
     <header>
 
-        <nav>
-        <div class="title"><a href="{{ site.url }}">{{ site.title }}</a></div>
+        <div class="title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></div>
 
         <div class="menu">
         <ul>
-            <li><a href="/about">About</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="#">Works</a></li>
+            <li><a href="{{ site.baseurl }}{{ site.aurl }}">{{ site.atitle }}</a></li>
+            <li><a href="{{ site.baseurl }}{{ site.burl }}">{{ site.btitle }}</a></li>
+            <li><a href="{{ site.baseurl }}{{ site.curl }}">{{ site.ctitle }}</a></li>
         </ul>
         </div>
-        </nav>
 
     </header>
     
-    <img src="/assets/img/i-1.jpg">
+    <img src="{{ site.baseurl }}/assets/img/i-1.jpg">

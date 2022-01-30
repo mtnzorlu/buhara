@@ -1,4 +1,4 @@
-title: "Buhara"
+title: "Your Awesome Title"
 name: "Buhara"
 email: metinzorlu@msn.com 
 description: Kişisel blog sayfası
@@ -6,9 +6,13 @@ description: Kişisel blog sayfası
 baseurl: "" 
 url: "" 
 twitter_username: deruni
-github_username: mtnzorlu
+github_username: mtnzorlu 
+youtube_username: deruni79
 
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+# navmenu 
+atitle: About
+aurl: /about
+btitle: Works
+burl: /works
+ctitle: Quote
+curl: /quote

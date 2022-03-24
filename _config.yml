@@ -9,6 +9,9 @@ twitter_username: deruni
 github_username: mtnzorlu 
 youtube_username: deruni79
 
+markdown: kramdown
+highlighter: rouge 
+
 # navmenu 
 atitle: About
 aurl: /about

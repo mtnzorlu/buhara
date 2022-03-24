@@ -10,7 +10,9 @@ github_username: mtnzorlu
 youtube_username: deruni79
 
 markdown: kramdown
-highlighter: rouge 
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 # navmenu 
 atitle: About

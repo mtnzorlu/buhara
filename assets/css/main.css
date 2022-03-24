@@ -1,5 +1,5 @@
 body {background: #bbb; margin: 0 auto; padding: 0; list-style: none; font: 14px roboto, sans-serif; width: 1180px;} 
-pre {color: #fff; background-color: slategrey; padding: 11px; border: 1px solid #555; font: 14px roboto, sans-serif;}
+pre {color: #414141; background-color: #fcfcfc; padding: 11px; border: 1px solid #eee; font: 14px roboto, sans-serif;}
 .date {color: #464a5e; font: 12px roboto, sans-serif; border-top: 2px solid #ababab4d; padding: 5px; background-color: #f9f9ff;}
 .post-title {color: rgb(70, 83, 95); font: 22px roboto, sans-serif; border-bottom: 1px solid rgb(181, 209, 247); padding: 5px 0;}
 header {background-color: slategrey; color: #ffffff; height: 54px; font: 15px roboto, sans-serif; border-bottom: 1px solid #25536d;}

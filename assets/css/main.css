@@ -1,32 +1,33 @@
-body {background: #bbb; margin: 0 auto; padding: 0; box-sizing: border-box; list-style: none; font: 14px roboto, sans-serif; width: 1180px;} 
-pre {color: #414141; background-color: #fcfcfc; padding: 11px; border: 1px solid #eee;} 
-code {font: 13px roboto, sans-serif; padding: 3px; letter-spacing: 0.1rem;}
-.date {color: #464a5e; font: 12px roboto, sans-serif; border-top: 2px solid #ababab4d; padding: 5px; background-color: #f9f9ff;}
-.post-title {color: rgb(70, 83, 95); font: 22px roboto, sans-serif; border-bottom: 1px solid #b5d1f7; padding: 5px 0;}
+body {background: #bbb; margin: 0 auto; padding: 0; box-sizing: border-box; list-style: none; font: 14px Roboto, 'Segoe UI', Oxygen, sans-serif; width: 1180px;} 
+pre {color: #414141; background-color: #fcfcfc; padding: 11px; border: 1px solid #eee; line-height: 23px;} 
+code {font-size: 13px; padding: 3px; letter-spacing: 0.1rem;}
+.date {color: #464a5e; font-size: 12px; border-top: 2px solid #ababab4d; padding: 5px; background-color: #f9f9ff;}
+.post-title {color: rgb(70, 83, 95); font-size: 22px; border-bottom: 1px solid #b5d1f7; padding: 5px 0;}
 header {background-color: slategrey; color: #ffffff; height: 52px; 
     border-bottom: 1px solid #25536d;}
-footer {background-color: slategrey; color: #ffffff; height: 24px; font: 15px roboto, sans-serif; 
+footer {background-color: slategrey; color: #ffffff; height: 24px; font-size: 15px; 
     padding: 15px 25px; border-radius: 0 0 8px 8px; line-height: 20px; box-shadow: #585858 0 2px 2px;}
 .title {float: left; color: #ffffff; padding: 0 13px; background: #ababab4d; margin: 0;} 
-.title a {color: #ffffff; font: 21px roboto, sans-serif; line-height: 52px;} .title a:hover {color: #d6ebfc;} 
+.title a {color: #ffffff; font-size: 21px; line-height: 52px;} .title a:hover {color: #d6ebfc;} 
 .menu {padding: 0 15px; float: right; line-height: 25px;} 
 ul {padding: 0 5px;}
 li {text-decoration: none; list-style-type: none; float: left; padding: 0 4px;} 
-.menu a {color: #d9f1ff; font: 18px roboto, sans-serif;}
+.menu a {color: #d9f1ff; font-size: 18px;}
 .menu a:hover {color: #b0e2ff; border-bottom: 2px solid #d9f1ff;}
 .container {background-color: white; padding: 1px;} 
 .box {background-color: white; padding: 15px 40px 40px 40px; margin: 10px; overflow-y: auto; line-height: 42px;  
-    box-shadow: #b8b8b8 0 3px 7px; border: 1px solid #e2e2e2; color: #444; font-family: 'Roboto', sans-serif; font-size: 16px;} 
+    box-shadow: #b8b8b8 0 3px 7px; border: 1px solid #e2e2e2; color: #444; font-size: 16px;} 
 .content.list {text-decoration: none; list-style-type: none; display: inline-block; padding: 10px;} 
 .box li {padding-right: 11px;} .box li a {background-color: bisque; color: #555; padding: 5px 11px; border-radius: 4px; box-shadow: #7a7a7a 0 2px 3px;} 
-.box li a:hover {background-color: #3b5a7c; color: #fff0d9; text-decoration: none;}
+.box li a:hover {background-color: #3b5a7c; color: #fff0d9; text-decoration: none;} 
+p {line-height: 27px;}
 a, h1, h2, h3, h4, h5, h6 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;} 
 a {color: #2670a1; font-size: 15px; text-decoration: none;} a:hover {color: #3281b6;}
 h2 {color: #585858; font-size: 18px;}
 .container img {width: 100%; height: 350px;}
 
-    table{font: 22px 'Noto Naskh Arabic', arial, sans-serif; margin: 2px 0; text-align: center; 
+    table{font: 22px 'Noto Naskh Arabic', Arial, sans-serif; margin: 2px 0; text-align: center; 
     color: #444444; border: 1px solid #c4c4c4; border-collapse: collapse;}
     th{background-color: #B3B3AB; color: #4E4E48; font: 16px Roboto, sans-serif; padding: 8px; border: 1px solid #919191;}
     td{padding: 6px 8px; border: 1px solid #c4c4c4;} tr{border: 1px solid #c4c4c4;}
@@ -39,7 +40,7 @@ h2 {color: #585858; font-size: 18px;}
     } 
 }
 @media screen and (max-device-width: 458px) {     
-    .menu a {font: 13px roboto, sans-serif;} .title a{font: 14px roboto, sans-serif; line-height: 52px;} header {height: 50px;}
+    .menu a {font: 13px roboto, sans-serif;} .title a{font-size: 14px; line-height: 52px;} header {height: 50px;}
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic&display=swap');

@@ -15,7 +15,7 @@ li {text-decoration: none; list-style-type: none; float: left; padding: 0 4px;}
 .menu a {color: #d9f1ff; font-size: 18px;}
 .menu a:hover {color: #b0e2ff; border-bottom: 2px solid #d9f1ff;}
 .container {background-color: white; padding: 1px;} 
-.box {background-color: white; padding: 30px; margin: 10px; overflow-y: auto; line-height: 42px;  
+.box {background-color: white; padding: 25px 35px; margin: 10px 20px; overflow-y: auto; line-height: 42px;  
     box-shadow: #b8b8b8 0 3px 7px; border: 1px solid #e2e2e2; color: #444; font-size: 16px;} 
 .content.list {text-decoration: none; list-style-type: none; display: inline-block; padding: 10px;} 
 .box li a {background-color: bisque; color: #555; padding: 5px 11px; border-radius: 4px; border: 1px solid #cccccc; word-break: break-word;} 

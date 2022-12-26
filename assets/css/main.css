@@ -35,9 +35,8 @@ h2 {color: #585858; font-size: 18px;}
     tr:nth-child(even) {background-color: #DEDEDE;}
 
 @media screen and (max-device-width: 1080px) {     
-    body { 
-    width: 100%;
-    } 
+    body {width: 100%;} 
+    p img {max-width: 100%;}
 }
 @media screen and (max-device-width: 458px) {     
     .menu a {font: 13px roboto, sans-serif;} .title a{font-size: 14px; line-height: 52px;} header {height: 50px;} 

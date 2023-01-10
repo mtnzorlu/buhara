@@ -1,7 +1,7 @@
 body {background: #bbbbbb; margin: 0 auto; padding: 0; box-sizing: border-box; list-style: none; 
       font-size: 14px; font-family: Roboto, 'Segoe UI', Oxygen, sans-serif; width: 1080px;} 
 pre {color: #414141; background-color: #fcfcfc; padding: 11px; border: 1px solid #eee; line-height: 23px;} 
-code {font-size: 13px; padding: 3px; letter-spacing: 0.1rem;}
+code {font-size: 13px; padding: 3px; letter-spacing: 0.1rem; white-space: pre-wrap;}
 .date {color: #464a5e; font-size: 12px; border-top: 2px solid #ababab4d; padding: 5px; background-color: #f9f9ff;}
 .post-title {color: rgb(70, 83, 95); font-size: 22px; border-bottom: 1px solid #b5d1f7; padding: 5px 0;}
 header {background-color: slategrey; color: #ffffff; height: 52px; 

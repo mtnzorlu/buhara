@@ -43,7 +43,7 @@ h2 {color: #585858; font-size: 18px;}
 }
 @media screen and (max-device-width: 458px) {     
     .menu a {font: 13px roboto, sans-serif;} .title a{font-size: 14px; line-height: 52px;} header {height: 50px;} 
-    .box {padding: 2px;} .box li a{padding: 2px 6px; font-size: 13px}
+    .box {padding: 12px;} .box li a{padding: 2px 6px; font-size: 13px}
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic&display=swap');

@@ -1,4 +1,4 @@
-body {background: #bbbbbb; margin: 0 auto; padding: 0; box-sizing: border-box; list-style: none; 
+body {background: #acaeb7; margin: 0 auto; padding: 0; box-sizing: border-box; list-style: none; 
       font-size: 14px; font-family: Roboto, 'Segoe UI', Oxygen, sans-serif; width: 1080px;} 
 pre {color: #414141; background-color: #fcfcfc; padding: 11px; border: 1px solid #eee; line-height: 23px;} 
 code {font-size: 13px; padding: 3px; letter-spacing: 0.1rem; white-space: pre-wrap;}
@@ -9,11 +9,11 @@ header {background-color: slategrey; color: #ffffff; height: 52px;
 footer {background-color: slategrey; color: #ffffff; height: 24px; font-size: 15px; 
     padding: 15px 25px; border-radius: 0 0 8px 8px; line-height: 20px; box-shadow: #585858 0 2px 2px;}
 .title {float: left; color: #ffffff; padding: 0 13px; background: #ababab4d; margin: 0;} 
-.title a {color: #ffffff; font-size: 21px; line-height: 52px;} .title a:hover {color: #d6ebfc;} 
+.title a {color: #ffffff; font-size: 16px; line-height: 52px;} .title a:hover {color: #d6ebfc;} 
 .menu {padding: 0 15px; float: right; line-height: 25px;} 
 ul {padding: 0 5px;}
 li {text-decoration: none; list-style-type: none; float: left; padding: 0 4px;} 
-.menu a {color: #d9f1ff; font-size: 18px;}
+.menu a {color: #d9f1ff; font-size: 16px;}
 .menu a:hover {color: #b0e2ff; border-bottom: 2px solid #d9f1ff;}
 .container {background-color: white; padding: 1px;} 
 .box {background-color: white; padding: 25px 35px; margin: 10px 20px; overflow-y: auto; line-height: 42px;  

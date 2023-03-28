@@ -2,7 +2,7 @@ body {background: #acaeb7; margin: 0 auto; padding: 0; box-sizing: border-box; l
       font-size: 14px; font-family: Roboto, 'Segoe UI', Oxygen, sans-serif; width: 1080px;} 
 pre {color: #414141; background-color: #fcfcfc; padding: 11px; border: 1px solid #eee; line-height: 23px;} 
 code {font-size: 13px; padding: 3px; letter-spacing: 0.1rem; white-space: pre-wrap;}
-.date {color: #464a5e; font-size: 12px; border-top: 2px solid #ababab4d; padding: 5px; background-color: #f9f9ff;}
+.date {color: #72768f; font-size: 12px; border: 1px solid #ababab4d; padding: 0 5px; background-color: #f9f9ff;}
 .post-title {color: rgb(70, 83, 95); font-size: 22px; border-bottom: 1px solid #b5d1f7; padding: 5px 0;}
 header {background-color: slategrey; color: #ffffff; height: 52px; 
     border-bottom: 1px solid #25536d;}
@@ -18,9 +18,9 @@ li {text-decoration: none; list-style-type: none; float: left; padding: 0 4px;}
 .container {background-color: white; padding: 1px;} 
 .box {background-color: white; padding: 25px 35px; margin: 10px 20px; overflow-y: auto; line-height: 42px;  
     box-shadow: #b8b8b8 0 3px 7px; border: 1px solid #e2e2e2; color: #444; font-size: 16px;} 
-.content.list {text-decoration: none; list-style-type: none; display: inline-block; padding: 10px;} 
-.box li a {background-color: bisque; color: #555; padding: 5px 11px; border-radius: 4px; border: 1px solid #cccccc; word-break: break-word;} 
-.box li a:hover {color: #323233; border: 1px solid #bcbcbc;} 
+.baslik {padding: 0 3px; display: inline-block;}
+.box .baslik a {background-color: bisque; color: #555; padding: 5px 11px; border-radius: 4px; border: 1px solid #cccccc; word-break: break-word;} 
+.box .baslik a:hover {color: #323233; border: 1px solid #bcbcbc;} 
 p {line-height: 30px; font-size: 16px;} 
 a, h1, h2, h3, h4, h5, h6 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;} 

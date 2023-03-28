@@ -1,8 +1,9 @@
 ---
 layout: default
 ---
+
 {% for post in site.posts %}
-<div class="content-list">
-    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-</div>
+
+<div class="baslik"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
+    
 {% endfor %}

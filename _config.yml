@@ -3,6 +3,19 @@ name: "Buhara"
 email: metinzorlu@msn.com 
 description: Kişisel blog sayfası
 
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# jekyll-feed settings
+feed:
+  # Site başlığı
+  title: "Your Awesome Title"
+  # Sitenizin kısa açıklaması
+  description: "Kişisel blog sayfası"
+  # Feed dosyasının adı (isteğe bağlı)
+  name: "feed.xml"
+
 baseurl: "/buhara" 
 url: "" 
 twitter_username: deruni

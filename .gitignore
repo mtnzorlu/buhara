@@ -6,5 +6,4 @@ _site
 _sass
 .git
 .directory
-_config.yml
 Gemfile.lock

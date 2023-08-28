@@ -6,8 +6,8 @@ info: "Bu Site Hakkında"
 quotes: "Güzel Sözler"
 
 
-baseurl: "/buhara" 
-url: "" 
+baseurl: "" 
+url: "https://mtnzorlu.github.io/buhara" 
 twitter_username: deruni
 github_username: mtnzorlu 
 youtube_username: deruni79

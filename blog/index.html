@@ -6,7 +6,7 @@ title: Blog
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   <div class="box">
-  <div class="baslik"><a href="{{ post.url }}">{{ post.title }}</a></div>
+  <div class="baslik"><a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a></div>
   <div class="giris">{{ post.description }}</div>
   <div class="content">{{ post.excerpt }}</div>
   <div class="date">{{ post.date | date_to_long_string }}</div>
@@ -16,7 +16,7 @@ title: Blog
 <!-- Pagination links -->
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Önceki</a>
+    <a href="{{ site.baseurl }}/{{ paginator.previous_page_path }}" class="previous">Önceki</a>
   {% else %}
     <span class="previous">Önceki</span>
   {% endif %}
@@ -24,7 +24,7 @@ title: Blog
     {{ paginator.page }} / {{ paginator.total_pages }}
   </span>
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Sonraki</a>
+    <a href="{{ site.baseurl }}/{{ paginator.next_page_path }}" class="next">Sonraki</a>
   {% else %}
     <span class="next ">Sonraki</span>
   {% endif %}

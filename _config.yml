@@ -5,13 +5,11 @@ description: "Kişisel blog sayfası"
 info: "About This Site"
 quotes: "Nice Words"
 buttonTitle: "Other Posts"
+nPosts: "New Posts"
 
 
 baseurl: "/buhara" 
-url: "" 
-twitter_username: deruni
-github_username: mtnzorlu 
-youtube_username: deruni79
+url: ""
 
 plugins:
   - jekyll-seo-tag

@@ -2,8 +2,9 @@ title: "Your Awesome Title"
 name: "Buhara"
 email: metinzorlu@msn.com 
 description: "Kişisel blog sayfası"
-info: "Bu Site Hakkında"
-quotes: "Güzel Sözler"
+info: "About This Site"
+quotes: "Nice Words"
+buttonTitle: "Other Posts"
 
 
 baseurl: "/buhara" 

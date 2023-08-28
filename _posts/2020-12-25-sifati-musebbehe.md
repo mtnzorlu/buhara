@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Sıfat-ı Müşebbehe
+date: 2020-12-25
+categories: genel
+description: Sıfat-ı müşebbehe nedir?
 ---
 
 Sıfat-ı Müşebbeheler ism-i fâ’iller gibi olup, öznedeki değişmeyen, dâimî, kalıcı olan niteliği bildirirler.

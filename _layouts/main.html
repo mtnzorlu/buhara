@@ -2,8 +2,22 @@
 layout: default
 ---
 
-{% for post in site.posts %}
+<div class="box">
+	
+{% include info.html %}
+
+</div>
+
+<div class="box">
+
+<h1 class="info">Yeni Yazılar</h1>
+
+{% for post in site.posts limit:3 %}
 
 <div class="baslik"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
-    
+<div class="giris">{{ post.description }}</div>
+
 {% endfor %}
+
+<a href="/blog"><button class="other">Other Posts</button></a>
+</div>

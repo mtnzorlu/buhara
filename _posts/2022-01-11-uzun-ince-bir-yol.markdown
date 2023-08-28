@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Uzun İnce Bir Yol 
+date: 2022-01-11
+categories: genel
+description: Uzun yazımış makale görünümü
 ---
 
  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere non justo vel tempus. Morbi convallis risus justo, eget facilisis odio fermentum vitae. Donec convallis purus orci, at efficitur tortor bibendum at. Duis rhoncus metus lorem, id auctor ex convallis vel. Nam posuere eros ut eros rutrum, ac viverra urna malesuada. Proin tristique risus non enim pharetra finibus. Sed vitae velit a tortor consectetur imperdiet vitae ac nibh. Cras ornare tortor a justo sodales, vestibulum consectetur leo feugiat. Sed id risus laoreet, euismod enim in, lacinia tellus.

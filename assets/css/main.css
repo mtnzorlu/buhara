@@ -39,9 +39,9 @@ figure{font-size: 15px; color: #aaa; text-align: center;}
 li{line-height: 25px; color: #444444; padding: 4px; font-size: 16px;}
 
 p{line-height: 25px; font-size: 18px; color: #656565;}
-h1{color: #444444; font-size: 23px; line-height: 23px;}
-h2{color: #585858; font-size: 21px; line-height: 23px;}
-h3{color: #585855; font-size: 18px; line-height: 21px;}
+h1{color: #444444; font-size: 23px; line-height: 23px; font-weight: 300;}
+h2{color: #595959; font-size: 21px; line-height: 23px; font-weight: 400;}
+h3{color: #585855; font-size: 18px; line-height: 21px; font-weight: 400;}
 h4{color: #555555; font-size: 17px; line-height: 21px;}
 h5{color: #555555; font-size: 15px; line-height: 21px;}
 h6{color: #555555; font-size: 13px; line-height: 21px;}

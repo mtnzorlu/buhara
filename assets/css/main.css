@@ -4,7 +4,7 @@ pre{color: #414141; padding: 11px 7px; border: 1px solid #eee; line-height: 23px
 blockquote{padding: 2px 11px; margin: 0 3px; background-color: #f4f4ff; border-left: 3px solid #6e6ec2;}
 code{font-size: 13px; padding: 3px; letter-spacing: 0.1rem; white-space: pre-wrap;}
 .date{color: #72768f; font-size: 12px; border-bottom: 1px solid #ababab4d; line-height: 22px;}
-.post-title{color: rgb(70, 83, 95); font-size: 22px; border-bottom: 1px solid #b5d1f7; padding: 5px 0;}
+.post-title{color: rgb(70, 83, 95); font-size: 22px; border-bottom: 1px solid #b5d1f7; padding: 5px 0; margin: 0; display: inline-block;}
 header{background-color: #6a7e93; color: #ffffff; border-bottom: 1px solid #25536d; 
     display: flex; justify-content: space-between; align-items: center;}
 footer{background-color: #6a7e93; color: #ffffff; height: 24px; font-size: 15px; 
@@ -41,7 +41,7 @@ figure{font-size: 15px; color: #aaa; text-align: center;}
 li{line-height: 25px; color: #444444; padding: 4px; font-size: 16px;}
 
 p{color: #414141; font-size: 18px; line-height: 28px;}
-h1{color: #444444; font-size: 23px; line-height: 23px; font-weight: 300;}
+h1{color: #444444; font-size: 23px; line-height: 23px; font-weight: 400;}
 h2{color: #525252; font-size: 21px; line-height: 23px; font-weight: 400;}
 h3{color: #585855; font-size: 18px; line-height: 21px; font-weight: 400;}
 h4{color: #555555; font-size: 17px; line-height: 21px;}

@@ -2,7 +2,7 @@
 layout: post
 title:  "Hay De!"
 date:   2022-01-02
-categories: jekyll update
+categories: jekyll
 description: "Haydi artık markdown öğrenelim!"
 ---
 Kısa açıklama yazısı.

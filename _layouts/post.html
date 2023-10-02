@@ -1,9 +1,16 @@
 ---
 layout: default 
 ---
-
 <div class="box">
 <h1 class="post-title">{{ page.title }}</h1>
 {{ content }}
-<div class="date">{{ page.date | date_to_long_string }}</div>
+<div class="date">
+    <span class="category">{{ page.date | date: "%d.%m.%Y" }}</span>
+    <span class="category">
+        <a href="{{ site.baseurl }}/categories/all.html">Categories</a>
+      </span>
+      <span class="category">
+        <a href="{{ site.baseurl }}/categories/{{ page.categories }}">{{ page.categories }}</a>
+      </span>
+</div>
 </div>

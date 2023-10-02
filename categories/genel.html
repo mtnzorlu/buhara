@@ -1,0 +1,13 @@
+---
+layout: default
+title: Genel
+category: genel
+---
+<div class="box">
+  <h4>{{ page.title }}</h4>
+<ul class="ctg">
+  {% for post in site.categories[page.category] %}
+    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+</div>

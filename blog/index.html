@@ -6,7 +6,7 @@ title: Blog
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   <div class="box">
-  <div class="baslik"><a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a></div>
+  <div class="baslik"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
   <div class="giris">{{ post.description }}</div>
   <div class="content">{{ post.excerpt }}</div>
   <div class="date">{{ post.date | date_to_long_string }}</div>

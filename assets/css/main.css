@@ -3,7 +3,7 @@ body{background: #c6c3ba; margin: 0 auto; padding: 0; box-sizing: border-box; li
 pre{color: #414141; padding: 11px 7px; border: 1px solid #eee; line-height: 23px; white-space: pre-wrap;} 
 blockquote{padding: 2px 11px; margin: 0 3px; background-color: #f4f4ff; border-left: 3px solid #6e6ec2;}
 code{font-size: 13px; padding: 3px; letter-spacing: 0.1rem; white-space: pre-wrap;}
-.date{color: #72768f; font-size: 12px; border-bottom: 1px solid #ababab4d; line-height: 22px;} 
+.date{color: #72768f; font-size: 12px; border: 1px solid #f0f0f0; line-height: 22px; padding: 3px; border-radius: 4px; margin-top: 4px;} 
 .ctg{padding: 0;} .ctg li{list-style: none;} .ctg a{color: #444444; font-size: 14px; text-transform: capitalize;} .ctg a:hover{color: #000;} hr{border: 1px solid #bbb;}
 .category{margin: 0 3px; color: #72768f; text-transform: capitalize;} .category a{color: #6b98ca; font-size: 12px;} .category a:hover{color: #3282ff;}
 .post-title{color: #46535f; font-size: 22px; border-bottom: 1px solid #b7beb2; padding: 5px 0; margin: 0; display: inline-block;}
@@ -20,23 +20,25 @@ footer li{color: #d9f1ff; font-size: 13px; padding: 0;}
 .menu a{color: #e7e7e7; font-size: 15px;}
 .menu a:hover{color: #e7ffb0; border-bottom: 2px solid #f9ffd9;}
 .container{background-color: white; padding: 1px;} 
-.box{background-color: white; padding: 25px 40px; margin: 15px; overflow-y: auto; line-height: 42px;  
-    box-shadow: #b8b8b8 0 3px 7px; border: 1px solid #e2e2e2; color: #444; font-size: 16px;} 
-.baslik{padding: 0; color: #444;}
+.box{background-color: white; padding: 25px 30px; margin: 15px; overflow-y: auto; line-height: 42px;  
+    box-shadow: #dadada 0 3px 11px; border: 1px solid #e2e2e2; color: #444; font-size: 16px;} 
+.box2{background-color: #fefeff; padding: 20px 15px 5px 15px; margin: 15px 5px; overflow-y: auto; line-height: 32px;  
+    box-shadow: #e4e4e4 0 3px 15px; border: 1px solid #e2e2e2; color: #444; font-size: 16px;}
+.baslik{padding: 2px 5px; color: #444;}
 .box .baslik a{color: #656862; padding: 3px 0; font-size: 20px; word-break: break-word;} 
-.box .baslik a:hover{color: #37492a;} 
-.giris{color: #5f5f5f;}
+.box .baslik a:hover{color: #2b5011;} 
+.giris{color: #7a7a7a; font-size: 14px; padding: 2px 5px;}
 .pagination{margin: 20px 14px; padding: 5px; color: #555; font-size: 14px;}
 .pagination a{color: #4a4ab0; font-size: 14px;}
 .pagination a:hover{color: #343434;}
 .previous, .next{border: 1px solid #ddd; padding: 5px 7px; border-radius: 7px;}
 .page_number{color: #bbb;}
-.other{color: #eee; padding: 7px 15px; margin-top: 5px; font-size: 14px; 
-    font-family: 'Roboto', 'Segoe UI', 'Oxygen-Sans', sans-serif; background-color: #656862; cursor: pointer; border-radius: 7px; border: none;}
-.other:hover{background-color: #4a4ab0;}
+.other{color: #3f3f3f; padding: 7px 15px; margin-top: 5px; font-size: 14px; border: 1px solid #c0c0c0;
+    font-family: 'Roboto', 'Segoe UI', 'Oxygen-Sans', sans-serif; background-color: #d3dacc; cursor: pointer; border-radius: 7px; border: none;}
+.other:hover{background-color: #abdb84;}
 .prc{font-family: 'Quicksand', Segoe, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif; color: #444;} 
 .info{font-family: 'Quicksand', Segoe, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif; 
-font-weight: 300; font-size: 27px; color: #545454; text-align: left;}
+font-weight: 300; font-size: 27px; color: #545454; text-align: center;}
 .prc img{max-width: 100%; height: auto; display: block;}
 
 figure{font-size: 15px; color: #aaa; margin: 0;} figure img{margin: 0 auto;} figcaption{text-align: center;}

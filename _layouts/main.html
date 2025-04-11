@@ -14,10 +14,18 @@ layout: default
 
 {% for post in site.posts limit:3 %}
 
+<div class="box2">
 <div class="baslik"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
 <div class="giris">{{ post.description }}</div>
-
+<div class="date">
+    <span class="yil">{{ post.date | date: "%Y" }}</span>
+    <span class="ay">{{ post.date | date: "%m" }}</span>
+    <span class="gun">{{ post.date | date: "%d" }}</span>
+</div>
+</div>
 {% endfor %}
 
+<div class="giris">
 <a href="{{ site.baseurl }}/blog"><button class="other">{{ site.buttonTitle }}</button></a>
+</div>
 </div>

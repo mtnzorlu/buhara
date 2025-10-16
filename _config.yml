@@ -34,8 +34,8 @@ kramdown:
 # navmenu 
 mtitle: Home
 atitle: About
-aurl: about
+aurl: /about
 btitle: Works
-burl: works
+burl: /works
 ctitle: Blog
-curl: blog
+curl: /blog

@@ -8,13 +8,14 @@ buttonTitle: "Other Posts"
 nPosts: "New Posts"
 
 
-baseurl: "/buhara/" 
+baseurl: "https://mtnzorlu.github.io/buhara/" 
 url: ""
 
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-sitemap
   
 paginate: 3
 

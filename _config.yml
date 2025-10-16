@@ -8,7 +8,7 @@ buttonTitle: "Other Posts"
 nPosts: "New Posts"
 
 
-baseurl: "/buhara" 
+baseurl: "/buhara/" 
 url: ""
 
 plugins:

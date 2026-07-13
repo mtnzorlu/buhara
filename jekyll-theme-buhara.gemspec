@@ -7,10 +7,13 @@ Gem::Specification.new do |spec|
   spec.email         = ["metinzorlu@msn.com"]
 
   spec.summary       = "Buhara"
-  spec.homepage      = ""
+  spec.homepage = "https://github.com/mtnzorlu/buhara"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README|_config\.yml)!i) }
 
   spec.add_runtime_dependency "jekyll", "~> 4.2"
+  spec.metadata = {
+  "source_code_uri" => "https://github.com/mtnzorlu/buhara"
+}
 end

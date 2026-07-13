@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,25 +10,25 @@
     <link rel="stylesheet" media="screen" href="{{ site.baseurl }}/assets/css/emacs.css">
     {% seo %}
 </head>
+
 <body>
 
     <header>
 
-        <div class="title"><a href="{{ site.baseurl }}">{{ site.title }}</a></div>
+        <div class="title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></div>
 
         <div class="menu">
-        <ul>
+            <ul>
 
-            <li><a href="{{ site.baseurl }}">{{ site.mtitle }}</a></li>
-            <li><a href="{{ site.baseurl }}{{ site.aurl }}">{{ site.atitle }}</a></li>
-            <li><a href="{{ site.baseurl }}{{ site.burl }}">{{ site.btitle }}</a></li>
-            <li><a href="{{ site.baseurl }}{{ site.curl }}">{{ site.ctitle }}</a></li>
-        </ul>
+                <li><a href="{{ '/' | relative_url }}">{{ site.mtitle }}</a></li>
+                <li><a href="{{ site.aurl | relative_url }}">{{ site.atitle }}</a></li>
+                <li><a href="{{ site.burl | relative_url }}">{{ site.btitle }}</a></li>
+                <li><a href="{{ site.curl | relative_url }}">{{ site.ctitle }}</a></li>
+            </ul>
         </div>
 
     </header>
     <div class="container">
 
-    <img id="ust" src="{{ site.baseurl }}/assets/img/i-0.jpeg">
-      </div>
-
+        <img id="ust" src="{{ site.baseurl }}/assets/img/i-0.jpeg">
+    </div>

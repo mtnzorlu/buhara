@@ -1,0 +1,33 @@
+
+name: Trigger blog rebuild
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout blog repository
+        uses: actions/checkout@v4
+        with:
+          repository: mtnzorlu/mtnzorlu.github.io
+          ref: main
+          token: ${{ secrets.BLOG_REPO_TOKEN }}
+          path: blog
+
+      - name: Trigger blog rebuild
+        working-directory: blog
+        env:
+          GH_TOKEN: ${{ secrets.BLOG_REPO_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --allow-empty -m "Trigger blog rebuild after theme update"
+          git push origin main

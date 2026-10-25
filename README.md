@@ -1,1 +1,3 @@
-# buhara
+# Buhara
+
+Jekyll theme
